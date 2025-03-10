@@ -569,14 +569,19 @@
             visibility: visible;
         }
 
-        /* Responsive Design */
+        /* Responsive Design Enhancements */
         @media (max-width: 992px) {
             .hero h1 {
                 font-size: 2.8rem;
             }
-            
             .section-title {
                 font-size: 2.2rem;
+            }
+            .mission, .impact, .testimonials, .cta {
+                padding: 60px 5%;
+            }
+            .stat-number {
+                font-size: 2.5rem;
             }
         }
 
@@ -584,11 +589,9 @@
             header {
                 padding: 15px 5%;
             }
-            
             .mobile-menu-btn {
                 display: block;
             }
-            
             nav {
                 position: absolute;
                 top: 100%;
@@ -602,44 +605,26 @@
                 transition: max-height 0.3s ease;
                 box-shadow: var(--shadow);
             }
-            
             nav.active {
                 max-height: 300px;
             }
-            
             nav a {
                 padding: 15px 5%;
                 width: 100%;
                 border-bottom: 1px solid #eee;
             }
-            
             nav a:after {
                 display: none;
             }
-            
             .hero h1 {
                 font-size: 2.2rem;
             }
-            
             .hero p {
                 font-size: 1rem;
             }
-            
             .btn {
                 padding: 12px 25px;
                 font-size: 14px;
-            }
-            
-            .mission, .impact, .testimonials, .cta {
-                padding: 60px 5%;
-            }
-            
-            .section-title {
-                font-size: 1.8rem;
-            }
-            
-            .stat-number {
-                font-size: 2.5rem;
             }
         }
 
@@ -647,21 +632,17 @@
             .logo-text {
                 font-size: 24px;
             }
-            
             .hero h1 {
                 font-size: 1.8rem;
             }
-            
             .btn {
                 display: block;
                 width: 100%;
                 margin-bottom: 15px;
             }
-            
             .btn-outline {
                 margin-left: 0;
             }
-            
             .footer-column {
                 min-width: 100%;
             }
